@@ -1,0 +1,3 @@
+Fundo: 300px x 300px
+Cubo com borda: 81px x 81px
+Cubo sem borda: 65px x 65px
