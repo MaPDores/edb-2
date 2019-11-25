@@ -5,7 +5,6 @@ import dto.Command;
 import enumerators.Direction;
 import spark.Request;
 import spark.Response;
-import static spark.Spark.halt;
 import view.block.BlockHolder;
 
 

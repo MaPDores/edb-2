@@ -5,6 +5,7 @@ import javax.swing.JFrame;
 import listeners.GameKeyListener;
 import listeners.GameMouseListener;
 import listeners.GameWebListener;
+import listeners.GameWebSocketListener;
 
 /**
  *
@@ -16,6 +17,7 @@ public class GameMain extends JFrame {
     private GameKeyListener keyListener;
     private GameMouseListener mouseListener;
     private GameWebListener webListener;
+    private GameWebSocketListener webSocketListener;
     
     public GameMain() {
         super("2048");
@@ -51,8 +53,13 @@ public class GameMain extends JFrame {
         addMouseListener(mouseListener);
     }
     
+    //private void buildWebListener() {
+    //    webListener = new GameWebListener(board.holders);
+    //    webListener.initServer();
+    //}
+
     private void buildWebListener() {
-        webListener = new GameWebListener(board.holders);
-        webListener.initServer();
+        webSocketListener = new GameWebSocketListener("ws://localhost:4567/game", board.holders);
+        webSocketListener.connectToWebSocket();
     }
 }
