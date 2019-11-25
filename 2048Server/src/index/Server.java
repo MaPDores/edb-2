@@ -6,6 +6,6 @@ public class Server {
     public Server(int port) {
         port(port);
         new Router();
-        System.out.println("Server connected!");
+        System.out.println("Server connected at port "+ port +"!");
     }
 }
