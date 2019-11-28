@@ -19,7 +19,7 @@ O projeto foi criado com:
 	
 ## Setup
 Para utilizar o programa basta instalar o [NetBeans](https://netbeans.org/), baixar o projeto do git e inserir na pasta: ```C:\Users\user\Documents\NetBeansProjects ``` e por fim pressionar "F6".
-Para utilizar o microserviço é necessario o React Native, para intalá-lo basta seguir os passos disponiveis neste [link](https://docs.rocketseat.dev/ambiente-react-native/android/windows).
+Para utilizar o microserviço é necessario utilizar o React Native, para intalá-lo basta seguir os passos disponiveis neste [link](https://docs.rocketseat.dev/ambiente-react-native/android/windows).
 
 ## Criadores
 [Marcelo Peralta](https://github.com/MaPDores) e [Victor dos Santos](https://github.com/AnyVictor)
