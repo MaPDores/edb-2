@@ -15,7 +15,7 @@ Caso o jogo esteja muito dificil é possivel ativar o "Easter Egg" pressionando 
 	
 ## Tecnologias
 O projeto foi criado com:
-* [Apache NetBeans 11.1](https://netbeans.org/)
+* [Apache NetBeans 11.1](https://netbeans.org/).
 	
 ## Setup
 Para utilizar o programa basta instalar o [NetBeans](https://netbeans.org/), baixar o projeto do git e inserir na pasta: ```C:\Users\user\Documents\NetBeansProjects ``` e por fim pressionar "F6".
