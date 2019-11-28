@@ -59,7 +59,7 @@ public class GameMain extends JFrame {
     //}
 
     private void buildWebListener() {
-        webSocketListener = new GameWebSocketListener("ws://localhost:4567/game", board.holders);
+        webSocketListener = new GameWebSocketListener("ws://34.95.132.165:80/game", board.holders);
         webSocketListener.connectToWebSocket();
     }
 }
